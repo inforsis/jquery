@@ -20,11 +20,11 @@ var elem = $(this), //identificador da tabela que receberá o zebrado
 
 	//fazendo o zebrado da linha par
 	if (opts.style1) {
-		$(elem).find('tr:even').addClass(opts.style1);
+		$(elem).find('tbody tr:even').addClass(opts.style1);
 	}	
 	//fazendo o zemrabdo da linha impar
 	if (opts.style2) {
-  		$(elem).find('tr:odd').addClass(opts.style2);
+  		$(elem).find('tbody tr:odd').addClass(opts.style2);
 	}
   })
 
